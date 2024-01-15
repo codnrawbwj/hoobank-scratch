@@ -10,10 +10,10 @@ export default {
         primary: "#00040f",
         secondary: "#00f6ff",
         dimWhite: "rgba(255, 255, 255, 0.7)",
-        dimBlue: "rgba(9, 151, 124, 0.1)"
+        dimBlue: "rgba(9, 151, 124, 0.1)",
       },
       fontFamily: {
-        poppins: ["Poppins", "sans-serif"]
+        poppins: ["Poppins", "sans-serif"],
       },
     },
     screens: {
@@ -22,8 +22,8 @@ export default {
       sm: "768px",
       md: "1060px",
       lg: "1200px",
-      xl: "1700px"
-    }
+      xl: "1700px",
+    },
   },
   plugins: [],
 }
