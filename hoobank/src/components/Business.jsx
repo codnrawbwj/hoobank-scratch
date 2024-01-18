@@ -19,7 +19,7 @@ const FeatureCard = ({ icon, title, content, index }) => (
 const Business = () => {
   return (
     <section id='features'
-      className={`${layout.section} font-poppins`}>
+      className={`${layout.section} font-poppins md:mt-[120px]`}>
       <div className={`${layout.sectionInfo}`}>
         <h4 className='text-white font-semibold text-[48px] leading-[76.8px]'>
           You do the business,<br className='sm:block hidden'/>
