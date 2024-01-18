@@ -5,7 +5,7 @@ import styles, { layout } from '../style';
 import Button from './Button';
 
 const FeatureCard = ({ icon, title, content, index }) => (
-  <div className={`flex flex-1 max-w-[580px] justify-center items-center rounded-[20px] p-6 ${index === features.length-1 ? 'mb-0' : 'mb-6'} feature-card`}>
+  <div className={`flex flex-1 lg:max-w-[580px] w-[90%] justify-center items-center rounded-[20px] p-6 ${index === features.length-1 ? 'mb-0' : 'mb-6'} feature-card`}>
     <div className={`w-[64px] h-[64px] rounded-full bg-dimBlue mr-5 flex justify-center items-center mr-10`}>
       <img src={icon} alt="icon" className='object-contain'/>
     </div>
