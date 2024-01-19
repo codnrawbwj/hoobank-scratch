@@ -2,7 +2,8 @@ import React from 'react'
 import { bill, apple, google } from '../assets'
 
 const Billing = () => (
-  <section className='lg:flex lg:flex-row my-[120px] flex flex-col-reverse'>
+  <section id='product'
+    className='lg:flex lg:flex-row my-[120px] flex flex-col-reverse'>
     <div className='absolute'>
 
     </div>
