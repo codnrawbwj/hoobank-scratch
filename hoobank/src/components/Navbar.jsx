@@ -11,7 +11,7 @@ const Navbar = () => {
       <img src={logo} alt="logo" className='w-[124px] h-[32px]' />
       <ul className="list-none sm:flex hidden justify-end">
         {navLinks.map((nav, index) => (
-          <li className={`text-white font-poppins cursor-pointer text-[16px] ${index === navLinks.length-1 ? 'mr-0' : 'mr-10'}`}>
+          <li key={nav.id} className={`text-white font-poppins cursor-pointer text-[16px] ${index === navLinks.length-1 ? 'mr-0' : 'mr-10'}`}>
             <a href={`#${nav.id}`}>
               {nav.title}
             </a>
